@@ -1,6 +1,7 @@
- <!--## The Piano Inpainting Application  -->
+<!--## The Piano Inpainting Application  -->
 {% include youtube.html id='HSn2NGAR-ro' %}
 
+This is the companion website of the paper *The Piano Inpainting Application* submitted to ISMIR 2021.
 
 ### A.I. as creative music assistants
 Composing and editing piano performances using a [Digital Audio Workstation](https://en.wikipedia.org/wiki/Digital_audio_workstation) (DAW) can often become a lengthy task as the proper timing, duration and velocity of each note must be set precisely in order to convey the intended emotional effect. If one does not have access to a MIDI keyboard, this task might even become impossible to handle.
@@ -38,19 +39,3 @@ Note that you must be connected to the Internet so that PIA can work.
 In the following video, I show a live recording of an example usage of PIA. Starting from scratch, I successively ask for a continuation of the first proposal, then edit the middle section twice with different note densities before asking for another ending.
 
 {% include youtube.html id='YKCzU8UYsRU' %}
-
-### What kind of A.I. model is this?
-We are currently writing a scientific paper on the model itself. Our main focus was to make the model as responsive as possible while maintaining high generation capabilities. The code and the model will be released.
-
-### How to contribute?
-Any feedback is more than welcome! From explaining how you worked with PIA, sharing your creations to proposing improvement suggestions. Please visit the dedicated [Github Discussions](https://github.com/Ghadjeres/piano-inpainting-application/discussions).
-
-### Disclaimer
-This is an alpha version. This is a research project, not an official product. 
-Expect some issues. Please save your important work before experimenting with PIA. No personnal data will be collected. This version of the plugin will cease functioning by the 1st of April 2021.
-
-
-
-> [Gaëtan Hadjeres](https://scholar.google.com/citations?user=wfZF3E0AAAAJ&hl=en), Sony CSL Paris, Feb. 2021.
->
-> Many thanks to [Adrien Laversanne-Finot](https://scholar.google.com/citations?user=kWScejIAAAAJ&hl=fr) for his important contributions to this project.
