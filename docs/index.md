@@ -1,6 +1,7 @@
  <!--## The Piano Inpainting Application  -->
 {% include youtube.html id='HSn2NGAR-ro' %}
 
+
 ### A.I. as creative music assistants
 Composing and editing piano performances using a [Digital Audio Workstation](https://en.wikipedia.org/wiki/Digital_audio_workstation) (DAW) can often become a lengthy task as the proper timing, duration and velocity of each note must be set precisely in order to convey the intended emotional effect. If one does not have access to a MIDI keyboard, this task might even become impossible to handle.
 
