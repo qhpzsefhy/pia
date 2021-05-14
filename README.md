@@ -9,7 +9,7 @@ A more detailed presentation is available on the [accompanying website](https://
 
 
 ### How to use
-You can download the  plugin [here](https://github.com/qhpzsefhy/pia/releases/PIA.amxd) and simply drag and drop the `PIA.amxd` file within Ableton Live's  MIDI plugin section. 
+You can download the plugin [here](https://github.com/qhpzsefhy/pia/raw/master/releases/PIA.amxd) and simply drag and drop the `PIA.amxd` file within Ableton Live's  MIDI plugin section. 
 
 <p align="center">
 <img src="docs/resources/pia.png" alt="drawing" width="150"/>
