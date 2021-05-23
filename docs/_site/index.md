@@ -85,7 +85,7 @@ type="audio/mpeg"></audio>
 ---
 
 This suggests an intuitive way to condition PIA by inputting the
-onsets using a one-octave MIDI keyboard. Here is for instance an example of a
+onsets using a one-octave MIDI keyboard. Here is for instance  a
 recording I made:
 
 <p align="center">
