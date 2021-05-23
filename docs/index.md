@@ -1,6 +1,6 @@
-<!--## The Piano Inpainting Application  -->
-{% include youtube.html id='HSn2NGAR-ro' %}
 
+<!--## The Piano Inpainting Application  -->
+{% include youtube.html id='tTjJaECz4s8' %}
 This is the companion website of the paper *The Piano Inpainting Application* submitted to ISMIR 2021.
 
 ### A.I. as creative music assistants
@@ -35,7 +35,17 @@ Since PIA is fast and responsive, you should immediately see the selected region
 Note that you must be connected to the Internet so that PIA can work.
 
 
-### Example
+### Examples
+#### Live usage of PIA
 In the following video, I show a live recording of an example usage of PIA. Starting from scratch, I successively ask for a continuation of the first proposal, then edit the middle section twice with different note densities before asking for another ending.
 
-{% include youtube.html id='YKCzU8UYsRU' %}
+{% include youtube.html id='tTjJaECz4s8' %}
+
+The following example was composed using a similar workflow in under
+3 minutes: Generation
+a first proposal from scratch, copy and paste of this proposal, asking PIA
+to generate a transition between the two copies and regenerating an
+ending.
+
+<audio ref='PIA2' src="{{site.baseurl}}assets/PIA2.mp3"
+type="audio/mp3" autoPlay loop></audio>

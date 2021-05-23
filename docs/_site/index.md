@@ -1,5 +1,7 @@
- <!--## The Piano Inpainting Application  -->
-{% include youtube.html id='HSn2NGAR-ro' %}
+
+<!--## The Piano Inpainting Application  -->
+{% include youtube.html id='tTjJaECz4s8' %}
+This is the companion website of the paper *The Piano Inpainting Application* submitted to ISMIR 2021.
 
 ### A.I. as creative music assistants
 Composing and editing piano performances using a [Digital Audio Workstation](https://en.wikipedia.org/wiki/Digital_audio_workstation) (DAW) can often become a lengthy task as the proper timing, duration and velocity of each note must be set precisely in order to convey the intended emotional effect. If one does not have access to a MIDI keyboard, this task might even become impossible to handle.
@@ -24,7 +26,7 @@ The Piano Inpainting Application (PIA) comes as a lightweight [Ableton Live](htt
 
 
 ### How to use
-You can download PIA using the [Download .amxd](https://github.com/Ghadjeres/piano-inpainting-application/releases/download/v0.1-alpha/PIA.amxd) link above and simply drag and drop the `PIA.amxd` file within Ableton Live's  MIDI plugin section. 
+You can download PIA using the [Download .amxd](https://github.com/qhpzsefhy/pia/raw/master/releases/PIA.amxd) link above and simply drag and drop the `PIA.amxd` file within Ableton Live's  MIDI plugin section. 
 
 Select a region in the MIDI track you wish to edit by specifying it using the loop selector (CMD + L) and click on PIA's *Generate* button. The *density* knob controls how many notes per second the inpainted region should have. The last button is used to set the *density* knob to the actual note density of the selected region.
 
@@ -33,23 +35,17 @@ Since PIA is fast and responsive, you should immediately see the selected region
 Note that you must be connected to the Internet so that PIA can work.
 
 
-### Example
+### Examples
+#### Live usage of PIA
 In the following video, I show a live recording of an example usage of PIA. Starting from scratch, I successively ask for a continuation of the first proposal, then edit the middle section twice with different note densities before asking for another ending.
 
-{% include youtube.html id='YKCzU8UYsRU' %}
+{% include youtube.html id='tTjJaECz4s8' %}
 
-### What kind of A.I. model is this?
-We are currently writing a scientific paper on the model itself. Our main focus was to make the model as responsive as possible while maintaining high generation capabilities. The code and the model will be released.
+The following example was composed using a similar workflow in under
+3 minutes: Generation
+a first proposal from scratch, copy and paste of this proposal, asking PIA
+to generate a transition between the two copies and regenerating an
+ending.
 
-### How to contribute?
-Any feedback is more than welcome! From explaining how you worked with PIA, sharing your creations to proposing improvement suggestions. Please visit the dedicated [Github Discussions](https://github.com/Ghadjeres/piano-inpainting-application/discussions).
-
-### Disclaimer
-This is an alpha version. This is a research project, not an official product. 
-Expect some issues. Please save your important work before experimenting with PIA. No personnal data will be collected. This version of the plugin will cease functioning by the 1st of April 2021.
-
-
-
-> [Gaëtan Hadjeres](https://scholar.google.com/citations?user=wfZF3E0AAAAJ&hl=en), Sony CSL Paris, Feb. 2021.
->
-> Many thanks to [Adrien Laversanne-Finot](https://scholar.google.com/citations?user=kWScejIAAAAJ&hl=fr) for his important contributions to this project.
+<audio ref='PIA2' src="{{site.baseurl}}assets/PIA2.mp3"
+type="audio/mp3" autoPlay loop></audio>
