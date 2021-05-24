@@ -84,6 +84,7 @@ type="audio/mpeg"></audio>
 </p>
 We note that PIA is able to develop coherent melodic patterns based on the
 rhythmic patterns from the input, while generating in a modern style.
+
 ---
 
 This suggests an intuitive way to condition PIA by inputting the
