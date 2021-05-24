@@ -39,7 +39,7 @@ Note that you must be connected to the Internet so that PIA can work.
 #### Live usage of PIA
 In the following video, I show a live recording of an example usage of PIA. Starting from scratch, I successively ask for a continuation of the first proposal, then edit the middle section twice with different note densities before asking for another ending.
 
-{% include youtube.html id='tTjJaECz4s8' %}
+{% include youtube.html id='fZL7zDpD9Ko' %}
 
 #### Interactive composition made easy
 The following example was composed using the PIA plugin as in the
@@ -82,6 +82,8 @@ type="audio/mpeg"></audio>
 <audio controls> <source src="{{site.baseurl}}/assets/audio/from_moz.mp3"
 type="audio/mpeg"></audio>
 </p>
+We note that PIA is able to develop coherent melodic patterns based on the
+rhythmic patterns from the input, while generating in a modern style.
 ---
 
 This suggests an intuitive way to condition PIA by inputting the
